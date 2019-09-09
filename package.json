@@ -11,5 +11,8 @@
     "Social"
   ],
   "author": "Rishabh Mittal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1"
+  }
 }
