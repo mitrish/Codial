@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+
+        <link rel="stylesheet" href= "/css/layout.css">
+        <%- style %>
+    </head>
+    <body>
+        <!-- This is including the partial view from another file, thus creating a layout -->
+        <%- include('_header') -%>
+
+        <!-- this is the variable part, which has to be rendered separately -->
+       
+        <%- body%>
+        
+        <!-- This is including the partial view from another file, thus creating a layout -->
+        <%- include('_footer') -%>
+        <%- script %>
+    </body>
+</html>
